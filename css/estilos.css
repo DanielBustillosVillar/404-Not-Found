@@ -15,12 +15,33 @@
     letter-spacing: -0.08em;
     color: #333333;
 }
+@media (min-width: 768px){
+    .not{
+        margin-top: 40px;
+        margin-left: 77px;
+    }
+}
 .imagen{
     width: 80%;
     margin: 64px auto;
 }
 img{
     width: 100%;
+}
+@media (min-width: 768px){
+    .caja{
+        display: flex;
+        align-items: center;
+    }
+    .imagen{
+        width: 50%;
+        margin: 150px 77px 30px;
+    }
+    .contenido{
+        width: 50%;
+        padding: 100px;
+    }
+
 }
 .titulo{
     margin-left: 24px;
@@ -46,6 +67,10 @@ img{
     color: #ffffff;
     padding: 24px 43px;
     border: none;
+    cursor: pointer;
+}
+.boton:hover{
+    background: #222222;
 }
 .footer{
     margin: 144px 0 24px;
@@ -58,4 +83,9 @@ img{
 .footer a{
     text-decoration: none;
     color: #333333;
+}
+@media (min-width: 768px){
+    .footer{
+        margin: 0;
+    }
 }
