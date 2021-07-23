@@ -11,12 +11,12 @@
   </h3>
 </div>
 
-### Built With
+### Construido con
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML]
-- [CSS]
-## Contact
+- HTML
+- CSS
+## Contacto
 
 - GitHub [DanielBustillosVillar](https://{github.com/DanielBustillosVillar})
